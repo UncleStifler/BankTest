@@ -1,0 +1,23 @@
+
+.imageGeneralBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.imageBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.imageBlock p{
+    text-align: center;
+}
+
+.imageBlock img {
+    height: 150px;
+}

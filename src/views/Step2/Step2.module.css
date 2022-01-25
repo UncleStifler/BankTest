@@ -1,0 +1,36 @@
+
+.passwordBlockWithText {
+    margin-top: 30px;
+}
+
+.passwordBlock {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.passwordBlock p {
+    font-weight: bold;
+
+}
+
+.pistaBlock {
+    margin-top: 40px;
+}
+
+.textInformation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.pista p {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.pistaCounter {
+    font-size: 30px;
+}

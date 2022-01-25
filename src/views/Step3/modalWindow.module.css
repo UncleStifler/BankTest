@@ -1,0 +1,48 @@
+
+.modal {
+    width: 1198px;
+    height: 550px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 101px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    padding: 20px;
+    border-radius: 3px;
+    background-color: white;
+    width: 650px;
+    /*height: 150px;*/
+    display: grid;
+    grid-template-areas:
+    "info"
+    "button";
+    grid-template-rows: 75px 75px;
+    box-shadow: var(--box-shadow);
+}
+
+.infoModalBlock {
+    grid-area: info;
+}
+
+.warningImg {
+    display: flex;
+}
+
+.warningImg img {
+    height: 60px;
+    width: 65px;
+    margin-top: 10px;
+}
+
+.modalButtons {
+    grid-area: button;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    margin-right: 30px;
+}
